@@ -17,8 +17,6 @@ class ViewController: UIViewController {
     var isFinishedTyping = true
     var result: Double = 0
     var finalResult: Double?
-    var pressedNumberOne: String = ""
-    var pressedNumberTwo: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +37,6 @@ class ViewController: UIViewController {
         isFinishedTyping = true
         result = 0
         resultsLabel.text = "0"
-        print("AC tiklandi: firstNumber: \(firstNumber) secondNumber: \(secondNumber) operation: \(operation)")
     }
     
     @IBAction func operationButtonPressed(_ sender: UIButton) {
@@ -47,8 +44,6 @@ class ViewController: UIViewController {
             resultsLabel.text = "0"
             operation.append(operationButton)
             isFinishedTyping = false
-            
-            print("Operation: \(operation)")
             
             for i in operation {
                 if i == "+/-" {
