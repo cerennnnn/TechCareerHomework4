@@ -4,4 +4,4 @@
 
 GIF :
 
-https://user-images.githubusercontent.com/97634053/213667820-aa294304-0f00-4325-8812-705950e8f84a.mp4
+![Simulator Screen Recording - iPhone 14 Pro - 2023-01-20 at 13 01 35](https://user-images.githubusercontent.com/97634053/213668422-a462bf64-0907-48a3-a4a0-a11cb3390bf8.gif)
